@@ -1,3 +1,5 @@
+package ex2;
+
 public class Cliente {
     public int numeroConta;
     public int numeroAgencia;

@@ -1,4 +1,6 @@
-public class TestaRio {
+import ex4.Rio;
+
+public class mainRio {
     public static void main(String[] args) {
         Rio a = new Rio("Nilo", 100f, true);
         Rio b = new Rio();

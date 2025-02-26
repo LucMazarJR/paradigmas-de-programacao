@@ -1,4 +1,4 @@
-import javax.swing.*;
+package ex1;
 
 public class Aluno {
     public int numeroAluno;
@@ -23,7 +23,7 @@ public class Aluno {
     }
 
     public String dadosAluno(){
-        return("Numero Aluno: " + numeroAluno +
+        return("Numero ex1.Aluno: " + numeroAluno +
                 "\nNome: " + nome +
                 "\nIdade: " + idade);
     }

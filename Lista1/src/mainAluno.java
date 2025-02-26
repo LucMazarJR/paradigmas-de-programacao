@@ -1,4 +1,6 @@
-public class TestaAluno {
+import ex1.Aluno;
+
+public class mainAluno {
     public static void main(String[] args) {
         Aluno a1, a2, a3;
         a1= new Aluno(1, 19, "Sofia", 9.2f, 10.0f);

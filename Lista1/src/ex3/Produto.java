@@ -1,3 +1,5 @@
+package ex3;
+
 public class Produto {
     public int id;
     public String descricao;

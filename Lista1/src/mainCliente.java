@@ -1,4 +1,6 @@
-public class TestaCliente {
+import ex2.Cliente;
+
+public class mainCliente {
     public static void main(String[] args) {
         Cliente fulano = new Cliente(1, 1, "Fulano", 0.0f);
         Cliente beltrano = new Cliente(2, 1, "Beltrano", 1000.0f);

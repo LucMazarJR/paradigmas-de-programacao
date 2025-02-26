@@ -1,4 +1,6 @@
-public class TestaProduto {
+import ex3.Produto;
+
+public class mainProduto {
     public static void main(String[] args) {
         Produto p1 = new Produto(1, "TV", 20, 1500.0f);
         Produto p2 = new Produto();
