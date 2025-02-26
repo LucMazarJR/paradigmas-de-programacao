@@ -9,6 +9,6 @@ public class mainAluno {
 
         System.out.println("A nota final de " + a1.nome + " foi: " + a1.notaFinal());
         System.out.println(a2.dadosAluno());
-        a3.passou();
+        System.out.println(a3.passou());
     }
 }

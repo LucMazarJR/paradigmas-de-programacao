@@ -4,8 +4,7 @@ public class Aluno {
     public int numeroAluno;
     public String nome;
     public int idade;
-    public float p1;
-    public float p2;
+    public float p1, p2;
 
     public Aluno(){
         this.nome = "Vazio";
@@ -23,17 +22,12 @@ public class Aluno {
     }
 
     public String dadosAluno(){
-        return("Numero ex1.Aluno: " + numeroAluno +
+        return("Numero Aluno: " + numeroAluno +
                 "\nNome: " + nome +
                 "\nIdade: " + idade);
     }
 
-    public void passou(){
-        if (this.notaFinal() >= 6){
-            System.out.println(this.nome + " Passou!");
-        }
-        else{
-            System.out.println(this.nome + " Não Passou!");
-        }
+    public String passou(){
+        return this.notaFinal() >= 6 ? "Passou" : "Não Passou";
     }
 }
