@@ -24,7 +24,8 @@ public class Aluno {
     public String dadosAluno(){
         return("Numero Aluno: " + numeroAluno +
                 "\nNome: " + nome +
-                "\nIdade: " + idade);
+                "\nIdade: " + idade)
+                + "Passou?: " + passou();
     }
 
     public String passou(){
