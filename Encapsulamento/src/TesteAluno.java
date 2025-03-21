@@ -6,7 +6,7 @@ public class TesteAluno {
 
         aluno.setNome("Maria");
         aluno.setIdade(18);
-        aluno.setNumeroAluno("123456");
+        aluno.setNumeroAluno(123456);
         aluno.setP1(10);
         aluno.setP2(0);
 

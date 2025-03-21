@@ -1,18 +1,18 @@
 package ex2;
 
 public class Aluno {
-    private String numeroAluno;
+    private int numeroAluno;
     private String nome;
     private int idade;
     private float p1;
     private float p2;
 
     public Aluno(){
-        this.numeroAluno = "000000";
+        this.numeroAluno = 111111;
         this.nome = "Sem nome";
     }
 
-    public Aluno(String numeroAluno, String nome, int idade, float p1, float p2) {
+    public Aluno(int numeroAluno, String nome, int idade, float p1, float p2) {
         this.setNumeroAluno(numeroAluno);
         this.setNome(nome);
         this.setIdade(idade);
@@ -20,12 +20,13 @@ public class Aluno {
         this.setP2(p2);
     }
 
-    public String getNumeroAluno() {
+    public int getNumeroAluno() {
         return numeroAluno;
     }
 
-    public void setNumeroAluno(String numeroAluno) {
-        if (numeroAluno.length() != 6) {
+    public void setNumeroAluno(int numeroAluno) {
+        String aux = String.valueOf(numeroAluno);
+        if (aux.length() != 6) {
             System.out.println("Numero Aluno invalido");
         }
         this.numeroAluno = numeroAluno;

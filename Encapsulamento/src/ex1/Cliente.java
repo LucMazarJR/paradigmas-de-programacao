@@ -70,21 +70,11 @@ public class Cliente {
     }
 
     public void realizarDeposito(float valor){
-        if (valor >= 0){
-            this.saldo += valor;
-        }
-        else{
-            System.out.println("Valor invalido");
-        }
+        this.setSaldo(this.saldo + valor);
     }
 
     public void realizarSaque(float valor){
-        if(this.saldo - valor >= 0 && valor >= 0){
-            this.saldo -= valor;
-        }
-        else{
-            System.out.println("Saldo insuficiente");
-        }
+        this.setSaldo(this.saldo - valor);
     }
 
     public String imprimir() {
